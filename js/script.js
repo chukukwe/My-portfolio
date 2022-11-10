@@ -15,10 +15,3 @@ window.onscroll = () => {
 	menu.classList.remove('bx-x');
 	navlist.classList.remove('open');
 };
-
-var typed = new Typed(".typing-text", {
-    strings : [ "frontend web developer", "web designer", "Freelancer" ],
-    typeSpeed : 100,
-    backSpeed : 60,
-    loop : true
-});
